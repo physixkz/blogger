@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+main, .site-name {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+a, .btn-no-style, #comment-subtitle {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, .btn-no-style:hover {
+    color: #357ABD;
+}
+
+button {
+    background-color: #4a90e2;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+.post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.go-back {
+    color: #8e6b2e;
+}
+
+textarea, input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    border: 1px solid #4a90e2;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-section {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+header, .site-row, .info-section, .form-heading {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px;
+}
+
+.login-page, .sign-in-page, .new-form-page, .edit-form-page {
+    border: 3px solid #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-heading {
+    padding: 20px;
+}
+
+.info-section, .content-section, .form-section, .sign-in-link, .login-link {
+    padding-left: 20px;
+}
+
+.post-name, .post-title-section, .new-page {
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 1.5em;
+}
+
+.site-row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: center;
+}
+
+.site-name {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-style: double;
+    color: #333;
+    border-radius: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    transition: color 0.3s;
+    margin-left: 16px;
+}
+
+.btn-no-style:hover {
+    background: none;
+}
+
+.delete-post-btn {
+    background-color: #D41414;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-post-btn:hover {
+    background-color: #FF643D;
+}
+
+.edit-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #357ABD; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.edit-link:hover {
+    background-color: #4a90e2; /* Change the background color on hover */
+}
