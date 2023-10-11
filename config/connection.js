@@ -8,6 +8,7 @@ if (process.env.DATABASE_URL) {
       dialect: 'postgres',
       protocol: 'postgres',
       logging: true,
+      ssl: true,
     });
   } else {
     sequelize = new Sequelize(
